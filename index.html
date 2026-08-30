@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aroha Nails | Nail &amp; Beauty Studio, Te Aroha</title>
+<meta name="description" content="Aroha Nails is a private nail and beauty studio on Mountain View Road, Te Aroha. Dip powder, acrylic and gel nails, nail art, pedicures and waxing, by appointment.">
+<link rel="canonical" href="https://aroha-nails-demo.vercel.app/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Aroha Nails | Nail &amp; Beauty Studio, Te Aroha">
+<meta property="og:description" content="Dip powder, acrylic and gel nails, nail art, pedicures and waxing in a quiet private studio in Te Aroha. By appointment.">
+<meta property="og:image" content="https://images.pexels.com/photos/7446915/pexels-photo-7446915.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=630&amp;fit=crop">
+<meta name="theme-color" content="#241C19">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.pexels.com">
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- opening animation -->
+<div id="intro">
+  <div class="intro-mark">Aroha Nails</div>
+  <div class="intro-rule"></div>
+  <div class="intro-sub">Te Aroha, Waikato</div>
+</div>
+
+<!-- nav -->
+<header class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">AN</span>
+      <span>
+        <span class="brand-name">Aroha Nails</span>
+        <span class="brand-sub">Te Aroha</span>
+      </span>
+    </a>
+    <nav class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#studio">The studio</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-primary nav-cta" href="tel:+6421343445">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.4 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+      021 343 445
+    </a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+      <svg class="bars" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      <svg class="x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a class="m-link" href="#services">Services</a>
+  <a class="m-link" href="#studio">The studio</a>
+  <a class="m-link" href="#gallery">Gallery</a>
+  <a class="m-link" href="#reviews">Reviews</a>
+  <a class="m-link" href="#contact">Contact</a>
+  <div class="m-actions">
+    <a class="btn btn-primary btn-block" href="tel:+6421343445">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.4 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+      Call 021 343 445
+    </a>
+    <a class="btn btn-light btn-block" href="#contact">Book an appointment</a>
+  </div>
+</div>
+
+<!-- hero -->
+<section class="hero" id="top">
+  <div class="hero-slides" id="heroSlides">
+    <div class="hero-slide active">
+      <img src="https://images.pexels.com/photos/7446915/pexels-photo-7446915.jpeg?auto=compress&cs=tinysrgb&w=1800&h=1000&fit=crop" alt="A nail technician shaping a client's nails at the studio table" width="1800" height="1000" fetchpriority="high" decoding="async">
+    </div>
+    <div class="hero-slide">
+      <img src="https://images.pexels.com/photos/704815/pexels-photo-704815.jpeg?auto=compress&cs=tinysrgb&w=1800&h=1000&fit=crop" alt="Deep green gel nails with a hand painted leaf detail" width="1800" height="1000" loading="lazy" decoding="async">
+    </div>
+    <div class="hero-slide">
+      <img src="https://images.pexels.com/photos/887352/pexels-photo-887352.jpeg?auto=compress&cs=tinysrgb&w=1800&h=1000&fit=crop" alt="A finished set of deep red almond nails with hand painted detail" width="1800" height="1000" loading="lazy" decoding="async">
+    </div>
+  </div>
+  <div class="hero-scrim"></div>
+
+  <div class="wrap hero-inner">
+    <p class="hero-eyebrow">Te Aroha, Waikato &middot; Nail &amp; beauty studio</p>
+    <h1>Nails done properly, in a quiet studio on Mountain View Road.</h1>
+    <p class="hero-sub">Dip powder, acrylic and gel, nail art, pedicures, waxing and massage, with Tracey. One client in the room at a time, by appointment.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#contact">
+        Book an appointment
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <a class="btn btn-light" href="tel:+6421343445">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.4 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+        Call 021 343 445
+      </a>
+    </div>
+
+    <div class="hero-quote" id="heroQuote" aria-live="off"></div>
+  </div>
+</section>
+
+<!-- services -->
+<section class="section" id="services">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <p class="eyebrow">On the price list</p>
+      <h2>What you can book in</h2>
+      <p class="lede">Everything is done in one private room, one appointment at a time, so nothing gets rushed to fit the next person in.</p>
+    </div>
+
+    <div class="svc-grid">
+      <article class="svc reveal">
+        <div class="svc-img">
+          <span class="svc-num">01</span>
+          <img src="https://images.pexels.com/photos/4677845/pexels-photo-4677845.jpeg?auto=compress&cs=tinysrgb&w=900&h=675&fit=crop" alt="Colour being brushed onto a client's nails at the studio desk" width="900" height="675" loading="lazy" decoding="async">
+        </div>
+        <div class="svc-body">
+          <h3>Dip powder nails</h3>
+          <p>The studio speciality. Colour is layered into a powder rather than cured under a lamp, so the finish is hard wearing and sits light on your own nail.</p>
+        </div>
+      </article>
+
+      <article class="svc reveal">
+        <div class="svc-img">
+          <span class="svc-num">02</span>
+          <img src="https://images.pexels.com/photos/34871553/pexels-photo-34871553.jpeg?auto=compress&cs=tinysrgb&w=900&h=675&fit=crop" alt="A finished set of sculpted red nail extensions with swirl detail" width="900" height="675" loading="lazy" decoding="async">
+        </div>
+        <div class="svc-body">
+          <h3>Acrylic &amp; gel extensions</h3>
+          <p>Added length in whatever shape suits your hands. Almond, coffin, square or a soft oval, filed and balanced so they wear evenly.</p>
+        </div>
+      </article>
+
+      <article class="svc reveal">
+        <div class="svc-img">
+          <span class="svc-num">03</span>
+          <img src="https://images.pexels.com/photos/6135685/pexels-photo-6135685.jpeg?auto=compress&cs=tinysrgb&w=900&h=675&fit=crop" alt="A nail technician filing and shaping a client's natural nails" width="900" height="675" loading="lazy" decoding="async">
+        </div>
+        <div class="svc-body">
+          <h3>Manicures &amp; gel colour</h3>
+          <p>Shape corrected, cuticles tidied, then polish or gel on top. Chip free for a few weeks with none of the grow out line you get from a rushed set.</p>
+        </div>
+      </article>
+
+      <article class="svc reveal">
+        <div class="svc-img">
+          <span class="svc-num">04</span>
+          <img src="https://images.pexels.com/photos/17471377/pexels-photo-17471377.jpeg?auto=compress&cs=tinysrgb&w=900&h=675&fit=crop" alt="Soft pink nails with fine hand painted floral detail" width="900" height="675" loading="lazy" decoding="async">
+        </div>
+        <div class="svc-body">
+          <h3>Nail art</h3>
+          <p>Freehand detail, chrome, foils and hand painted work. Bring a photo of what you have seen, or leave the design with Tracey.</p>
+        </div>
+      </article>
+
+      <article class="svc reveal">
+        <div class="svc-img">
+          <span class="svc-num">05</span>
+          <img src="https://images.pexels.com/photos/34930123/pexels-photo-34930123.jpeg?auto=compress&cs=tinysrgb&w=900&h=675&fit=crop" alt="A pedicure being carried out in a quiet treatment room" width="900" height="675" loading="lazy" decoding="async">
+        </div>
+        <div class="svc-body">
+          <h3>Pedicures</h3>
+          <p>Soak, file, cuticle work and colour, plain or with gel. Men's manicures and pedicures are on the books here too, no fuss about it.</p>
+        </div>
+      </article>
+
+      <article class="svc reveal">
+        <div class="svc-img">
+          <span class="svc-num">06</span>
+          <img src="https://images.pexels.com/photos/5177995/pexels-photo-5177995.jpeg?auto=compress&cs=tinysrgb&w=900&h=675&fit=crop" alt="Brows being shaped by a beauty therapist in the studio" width="900" height="675" loading="lazy" decoding="async">
+        </div>
+        <div class="svc-body">
+          <h3>Waxing, massage &amp; reflexology</h3>
+          <p>Brows, lip and chin, body waxing, massage and reflexology. Book one on its own, or add it to a nail appointment and get it all done in the one trip.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- about -->
+<section class="section bone" id="studio">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-media reveal">
+        <img src="https://images.pexels.com/photos/2281695/pexels-photo-2281695.jpeg?auto=compress&cs=tinysrgb&w=1000&h=750&fit=crop" alt="Soft pink polish held beside a freshly finished manicure" width="1000" height="750" loading="lazy" decoding="async">
+        <span class="corner-tag">6 Mountain View Road</span>
+      </div>
+      <div class="reveal">
+        <p class="eyebrow">The studio</p>
+        <h2>A private room, one client at a time.</h2>
+        <p>Aroha Nails is a small studio on Mountain View Road in Te Aroha, run by Tracey, a qualified nail technician and beauty therapist. It is quiet, it is private, and the door is not swinging open with walk ins while you are trying to relax.</p>
+        <p>Appointments run long enough to do the prep properly, because that is what decides whether a set lasts three weeks or three days. If you are not sure what you want, bring photos and we will work it out in the chair.</p>
+        <ul class="checks">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+            <span>Qualified nail technician and beauty therapist</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+            <span>One private room, by appointment, never a queue</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+            <span>Late nights Tuesday to Thursday and Saturday mornings</span>
+          </li>
+        </ul>
+        <a class="btn btn-primary" href="#contact">
+          Check a time with Tracey
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- gallery -->
+<section class="section" id="gallery">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <p class="eyebrow center">The look book</p>
+      <h2>Sets and finishes you can book</h2>
+      <p class="lede" style="margin:0 auto;">A feel for the shapes, colours and treatments that come out of the studio. Bring your own picture in and Tracey will tell you straight whether it will hold up on your nails.</p>
+    </div>
+    <div class="masonry reveal">
+      <figure><img src="https://images.pexels.com/photos/34885842/pexels-photo-34885842.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Coral pink nails with a small hand painted flower and fine gem detail" loading="lazy" decoding="async"></figure>
+      <figure><img src="https://images.pexels.com/photos/7795525/pexels-photo-7795525.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Short marbled grey nails on a neutral manicure" loading="lazy" decoding="async"></figure>
+      <figure><img src="https://images.pexels.com/photos/17471377/pexels-photo-17471377.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Pale pink nail art with fine floral line work on a long set" loading="lazy" decoding="async"></figure>
+      <figure><img src="https://images.pexels.com/photos/5128233/pexels-photo-5128233.jpeg?auto=compress&cs=tinysrgb&w=800" alt="A beauty therapist working on a client's brows in the treatment room" loading="lazy" decoding="async"></figure>
+      <figure><img src="https://images.pexels.com/photos/5128220/pexels-photo-5128220.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Close up of detailed lash and brow work with fine tweezers" loading="lazy" decoding="async"></figure>
+    </div>
+  </div>
+</section>
+
+<!-- team -->
+<section class="section bone" id="team">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <p class="eyebrow center">Who you are booking with</p>
+      <h2>Meet Tracey</h2>
+    </div>
+    <div class="team-grid">
+      <article class="person reveal">
+        <div class="avatar">T</div>
+        <p class="role">Owner, nail tech &amp; beauty therapist</p>
+        <h3>Tracey</h3>
+        <p>Does every appointment herself, start to finish. The same hands each visit, so your shape and colour stay consistent instead of changing with whoever is rostered on.</p>
+      </article>
+      <article class="person reveal">
+        <div class="avatar icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9h18M7 3v3M17 3v3"/><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M9 14h6"/></svg>
+        </div>
+        <p class="role">How it runs</p>
+        <h3>By appointment</h3>
+        <p>Text or call to lock a time in. Late finishes Tuesday to Thursday for anyone who cannot get away during the day, and Saturday mornings until two.</p>
+      </article>
+      <article class="person reveal">
+        <div class="avatar icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-4.4-7-10a7 7 0 0 1 14 0c0 5.6-7 10-7 10z"/><circle cx="12" cy="11" r="2.6"/></svg>
+        </div>
+        <p class="role">Where you are going</p>
+        <h3>Mountain View Road</h3>
+        <p>Off the main street in Te Aroha, easy parking outside, and close enough for Waihou, Morrinsville, Paeroa and Matamata clients to make the trip worth it.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- reviews -->
+<section class="section" id="reviews">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <p class="eyebrow center">Reviews</p>
+      <h2>What clients say</h2>
+      <span class="badge">5.0 from 11 Google reviews</span>
+      <p class="lede" style="margin:0 auto;">Straight off the studio's Google listing, in the clients' own words.</p>
+    </div>
+
+    <div class="rev-grid">
+      <article class="rev reveal">
+        <div class="stars" aria-label="5 out of 5 stars">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6.6 7 .8-5.2 4.8 1.4 7L12 17.8 5.8 21.2l1.4-7L2 9.4l7-.8z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6.6 7 .8-5.2 4.8 1.4 7L12 17.8 5.8 21.2l1.4-7L2 9.4l7-.8z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6.6 7 .8-5.2 4.8 1.4 7L12 17.8 5.8 21.2l1.4-7L2 9.4l7-.8z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6.6 7 .8-5.2 4.8 1.4 7L12 17.8 5.8 21.2l1.4-7L2 9.4l7-.8z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6.6 7 .8-5.2 4.8 1.4 7L12 17.8 5.8 21.2l1.4-7L2 9.4l7-.8z"/></svg>
+        </div>
+        <p>Love, love, love having my nails done here! Me and my daughter have just recently started having our nails done to spend time together and i can honestly say i really enjoy the chats, fab nails and professionalism.</p>
+        <div class="meta"><strong>Sapphire Martin</strong>Google review &middot; Local Guide</div>
+      </article>
+
+      <article class="rev reveal">
+        <div class="stars" aria-label="5 out of 5 stars">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6.6 7 .8-5.2 4.8 1.4 7L12 17.8 5.8 21.2l1.4-7L2 9.4l7-.8z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6.6 7 .8-5.2 4.8 1.4 7L12 17.8 5.8 21.2l1.4-7L2 9.4l7-.8z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6.6 7 .8-5.2 4.8 1.4 7L12 17.8 5.8 21.2l1.4-7L2 9.4l7-.8z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6.6 7 .8-5.2 4.8 1.4 7L12 17.8 5.8 21.2l1.4-7L2 9.4l7-.8z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6.6 7 .8-5.2 4.8 1.4 7L12 17.8 5.8 21.2l1.4-7L2 9.4l7-.8z"/></svg>
+        </div>
+        <p>Super happy with our experience today I definitely walked out feeling like a new woman and brand new feet, beautiful massage too I will be back again thanks tracey your beautiful</p>
+        <div class="meta"><strong>Michelle Vera</strong>Google review &middot; Local Guide</div>
+      </article>
+
+      <article class="rev reveal">
+        <div class="stars" aria-label="5 out of 5 stars">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6.6 7 .8-5.2 4.8 1.4 7L12 17.8 5.8 21.2l1.4-7L2 9.4l7-.8z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6.6 7 .8-5.2 4.8 1.4 7L12 17.8 5.8 21.2l1.4-7L2 9.4l7-.8z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6.6 7 .8-5.2 4.8 1.4 7L12 17.8 5.8 21.2l1.4-7L2 9.4l7-.8z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6.6 7 .8-5.2 4.8 1.4 7L12 17.8 5.8 21.2l1.4-7L2 9.4l7-.8z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6.6 7 .8-5.2 4.8 1.4 7L12 17.8 5.8 21.2l1.4-7L2 9.4l7-.8z"/></svg>
+        </div>
+        <p>Just had a reflexology treatment and it was amazing. Highly recommended</p>
+        <div class="meta"><strong>Tony Hodges</strong>Google review &middot; 6 months ago</div>
+      </article>
+    </div>
+
+    <div class="rev-actions reveal">
+      <a class="btn btn-ghost" href="https://www.google.com/maps/place/data=!4m4!3m3!1s0x6d6d999bdfef1d2b:0xa8ed94655ee93145!9m1!1b1" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14L21 3"/></svg>
+        See all our Google reviews
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- leave a review banner -->
+<section class="banner" id="leave-review">
+  <div class="wrap banner-inner">
+    <div class="reveal">
+      <p class="eyebrow">Been in lately</p>
+      <h2>Happy with your nails? Leave us a review.</h2>
+      <p>It takes about twenty seconds and it is the main reason new clients in Te Aroha find the studio at all. Thank you.</p>
+    </div>
+    <div class="reveal">
+      <a class="btn btn-primary" href="https://www.google.com/maps/place/data=!4m3!3m2!1s0x6d6d999bdfef1d2b:0xa8ed94655ee93145!12e1" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6.6 7 .8-5.2 4.8 1.4 7L12 17.8 5.8 21.2l1.4-7L2 9.4l7-.8z"/></svg>
+        Leave a Google review
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- contact -->
+<section class="section ink" id="contact">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="reveal">
+        <p class="eyebrow">Get in touch</p>
+        <h2>Book your next appointment</h2>
+        <p class="lede">Call or text Tracey with the day that suits and roughly what you are after. If she is with a client she will come back to you between appointments.</p>
+
+        <ul class="info-list">
+          <li>
+            <span class="info-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-4.4-7-10a7 7 0 0 1 14 0c0 5.6-7 10-7 10z"/><circle cx="12" cy="11" r="2.6"/></svg></span>
+            <span>
+              <span class="k">Studio</span>
+              <a class="v" href="https://maps.google.com/?q=6+Mountain+View+Road,+Te+Aroha+3320,+New+Zealand" target="_blank" rel="noopener">6 Mountain View Road, Te Aroha 3320</a>
+            </span>
+          </li>
+          <li>
+            <span class="info-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.4 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span>
+            <span>
+              <span class="k">Phone or text</span>
+              <a class="v" href="tel:+6421343445">021 343 445</a>
+            </span>
+          </li>
+          <li>
+            <span class="info-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="M3 7l9 6 9-6"/></svg></span>
+            <span>
+              <span class="k">Email</span>
+              <a class="v" href="#" data-gmail data-user="te.arohanails" data-domain="gmail.com" data-su="Appointment%20enquiry" data-body="Hi%20Tracey%2C%0A%0AI%27d%20like%20to%20book%20an%20appointment%20at%20Aroha%20Nails.%0A%0AService%3A%20%0APreferred%20day%20and%20time%3A%20%0AName%3A%20%0APhone%3A%20%0A%0AThanks%2C%0A" data-label>Email the studio</a>
+            </span>
+          </li>
+          <li>
+            <span class="info-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></svg></span>
+            <span style="flex:1;">
+              <span class="k">Opening hours</span>
+              <div class="hours">
+                <span><em style="font-style:normal;">Monday</em> <em style="font-style:normal;">9:00am - 5:00pm</em></span>
+                <span><em style="font-style:normal;">Tuesday to Thursday</em> <em style="font-style:normal;">9:00am - 7:00pm</em></span>
+                <span><em style="font-style:normal;">Friday</em> <em style="font-style:normal;">9:00am - 5:00pm</em></span>
+                <span><em style="font-style:normal;">Saturday</em> <em style="font-style:normal;">9:00am - 2:00pm</em></span>
+                <span><em style="font-style:normal;">Sunday</em> <em style="font-style:normal;">Closed</em></span>
+              </div>
+            </span>
+          </li>
+        </ul>
+
+        <div class="socials">
+          <a class="soc" href="https://www.facebook.com/people/Aroha-Nails-and-Beauty-Te-Aroha/100057091104200/" target="_blank" rel="noopener" aria-label="Aroha Nails and Beauty on Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5 3.66 9.15 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.52 1.5-3.91 3.77-3.91 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.78-1.63 1.57v1.89h2.78l-.45 2.91h-2.33V22c4.78-.79 8.44-4.93 8.44-9.94z"/></svg>
+          </a>
+          <a class="soc" href="https://www.instagram.com/explore/search/keyword/?q=Aroha%20Nails%20Te%20Aroha" target="_blank" rel="noopener" aria-label="Search for Aroha Nails on Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a class="soc" href="https://www.tiktok.com/search?q=Aroha%20Nails%20Te%20Aroha" target="_blank" rel="noopener" aria-label="Search for Aroha Nails on TikTok">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.5 2h-3v13.1a2.6 2.6 0 1 1-2.1-2.55v-3.06a5.7 5.7 0 1 0 5.2 5.68V9.02a6.9 6.9 0 0 0 4 1.28V7.24a3.9 3.9 0 0 1-4.1-3.9V2z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-card reveal">
+        <h3>Two ways to reach the studio</h3>
+        <p>No forms, no waiting on a reply from a booking robot. Both buttons go straight to Tracey.</p>
+        <a class="btn btn-primary" href="tel:+6421343445">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.4 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+          Call to book an appointment
+        </a>
+        <a class="btn btn-solid-light" href="#" data-gmail data-user="te.arohanails" data-domain="gmail.com" data-su="Appointment%20enquiry" data-body="Hi%20Tracey%2C%0A%0AI%27d%20like%20to%20book%20an%20appointment%20at%20Aroha%20Nails.%0A%0AService%3A%20%0APreferred%20day%20and%20time%3A%20%0AName%3A%20%0APhone%3A%20%0A%0AThanks%2C%0A">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="M3 7l9 6 9-6"/></svg>
+          Email about a booking
+        </a>
+        <p class="fineprint">Texts are fine, and often the quickest way to get a time confirmed on a busy day.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- map -->
+<section class="section bone" id="find-us" style="padding-top:56px;padding-bottom:56px;">
+  <div class="wrap">
+    <div class="sec-head center reveal" style="margin-bottom:26px;">
+      <p class="eyebrow center">Find the studio</p>
+      <h2>6 Mountain View Road, Te Aroha</h2>
+    </div>
+    <div class="map-wrap reveal">
+      <iframe
+        title="Map showing Aroha Nails at 6 Mountain View Road, Te Aroha"
+        src="https://maps.google.com/maps?q=6%20Mountain%20View%20Road,%20Te%20Aroha%203320,%20New%20Zealand&z=15&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- footer -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html">
+          <span class="brand-mark">AN</span>
+          <span>
+            <span class="brand-name">Aroha Nails</span>
+            <span class="brand-sub">Te Aroha</span>
+          </span>
+        </a>
+        <p>A private nail and beauty studio on Mountain View Road, Te Aroha. Dip powder, acrylic and gel nails, nail art, pedicures, waxing and beauty treatments, by appointment.</p>
+        <div class="socials">
+          <a class="soc" href="https://www.facebook.com/people/Aroha-Nails-and-Beauty-Te-Aroha/100057091104200/" target="_blank" rel="noopener" aria-label="Aroha Nails and Beauty on Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5 3.66 9.15 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.52 1.5-3.91 3.77-3.91 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.78-1.63 1.57v1.89h2.78l-.45 2.91h-2.33V22c4.78-.79 8.44-4.93 8.44-9.94z"/></svg>
+          </a>
+          <a class="soc" href="https://www.instagram.com/explore/search/keyword/?q=Aroha%20Nails%20Te%20Aroha" target="_blank" rel="noopener" aria-label="Search for Aroha Nails on Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a class="soc" href="https://www.tiktok.com/search?q=Aroha%20Nails%20Te%20Aroha" target="_blank" rel="noopener" aria-label="Search for Aroha Nails on TikTok">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.5 2h-3v13.1a2.6 2.6 0 1 1-2.1-2.55v-3.06a5.7 5.7 0 1 0 5.2 5.68V9.02a6.9 6.9 0 0 0 4 1.28V7.24a3.9 3.9 0 0 1-4.1-3.9V2z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Studio</h4>
+        <ul class="footer-links">
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#studio">The studio</a></li>
+          <li><a href="index.html#gallery">Gallery</a></li>
+          <li><a href="index.html#reviews">Reviews</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <ul class="footer-links">
+          <li><a href="tel:+6421343445">021 343 445</a></li>
+          <li><a href="#" data-gmail data-user="te.arohanails" data-domain="gmail.com" data-su="Appointment%20enquiry" data-body="Hi%20Tracey%2C%0A%0AI%27d%20like%20to%20book%20an%20appointment%20at%20Aroha%20Nails.%0A%0AThanks%2C%0A">Email the studio</a></li>
+          <li><a href="https://maps.google.com/?q=6+Mountain+View+Road,+Te+Aroha+3320,+New+Zealand" target="_blank" rel="noopener">6 Mountain View Road, Te Aroha</a></li>
+          <li><a href="https://www.google.com/maps/place/data=!4m3!3m2!1s0x6d6d999bdfef1d2b:0xa8ed94655ee93145!12e1" target="_blank" rel="noopener">Leave a Google review</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; <span id="year">2026</span> Aroha Nails, Te Aroha, Waikato. All rights reserved.</span>
+      <span class="legal">
+        <a href="terms.html">Terms &amp; Conditions</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="https://www.google.com/maps/place/data=!4m3!3m2!1s0x6d6d999bdfef1d2b:0xa8ed94655ee93145!12e1" target="_blank" rel="noopener">Leave a review</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+<script src="site.js"></script>
+</body>
+</html>
