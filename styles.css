@@ -337,7 +337,7 @@ body.menu-open .mobile-menu{opacity:1;visibility:visible;transform:none;}
 .about-grid{display:grid;gap:30px;align-items:center;}
 .about-media{position:relative;}
 .about-media img{
-  width:100%;aspect-ratio:4/5;object-fit:cover;
+  width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;
   border-radius:var(--radius-lg);
   filter:saturate(.82) contrast(1.05);
 }
