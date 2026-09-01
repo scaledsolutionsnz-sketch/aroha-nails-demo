@@ -157,7 +157,7 @@ body.intro-done #intro{opacity:0;visibility:hidden;}
   top:0;left:0;right:0;
   z-index:900;
   padding:14px 0;
-  transition:background .4s var(--ease),box-shadow .4s var(--ease),padding .4s var(--ease);
+  transition:background .4s var(--ease),box-shadow .4s var(--ease);
 }
 .nav-inner{display:flex;align-items:center;justify-content:space-between;gap:14px;}
 .brand{display:flex;align-items:center;gap:11px;text-decoration:none;color:#fff;}
@@ -570,11 +570,12 @@ body.menu-open .mobile-menu{opacity:1;visibility:visible;transform:none;}
     transition:color .3s var(--ease);
   }
   .nav-links a::after{
-    content:"";position:absolute;left:0;bottom:0;height:1px;width:0;background:var(--accent);
-    transition:width .35s var(--ease);
+    content:"";position:absolute;left:0;bottom:0;height:1px;width:100%;background:var(--accent);
+    transform:scaleX(0);transform-origin:left;
+    transition:transform .35s var(--ease);
   }
   .nav-links a:hover{color:#fff;}
-  .nav-links a:hover::after{width:100%;}
+  .nav-links a:hover::after{transform:scaleX(1);}
   .nav-cta{display:inline-flex;}
   .burger{display:none;}
   .contact-card{padding:34px 30px;}
