@@ -165,7 +165,7 @@ body.intro-done #intro{opacity:0;visibility:hidden;}
   width:44px;height:auto;flex:none;
 }
 .brand-name{font-family:"Marcellus",serif;font-size:1.06rem;letter-spacing:.05em;line-height:1.1;}
-.brand-sub{display:block;font-size:.6rem;letter-spacing:.22em;text-transform:uppercase;opacity:.72;font-family:"Jost",sans-serif;}
+.brand-sub{display:block;font-size:.69rem;letter-spacing:.16em;text-transform:uppercase;opacity:.78;font-family:"Jost",sans-serif;}
 .nav-links{display:none;}
 .nav-cta{display:none;}
 .nav.scrolled{background:rgba(31,29,27,.94);backdrop-filter:blur(12px);box-shadow:0 1px 0 rgba(241,237,233,.12);padding:9px 0;}
@@ -337,7 +337,7 @@ body.menu-open .mobile-menu{opacity:1;visibility:visible;transform:none;}
 .about-grid{display:grid;gap:30px;align-items:center;}
 .about-media{position:relative;}
 .about-media img{
-  width:100%;aspect-ratio:4/3;object-fit:cover;
+  width:100%;aspect-ratio:4/5;object-fit:cover;
   border-radius:var(--radius-lg);
   filter:saturate(.82) contrast(1.05);
 }
@@ -588,4 +588,59 @@ body.menu-open .mobile-menu{opacity:1;visibility:visible;transform:none;}
   html{scroll-behavior:auto;}
   *,*::before,*::after{animation-duration:.001ms !important;transition-duration:.001ms !important;}
   .reveal{opacity:1;transform:none;}
+}
+
+/* ---------- price list ---------- */
+.price-grid{display:grid;gap:20px;}
+.price-group{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:var(--radius-lg);
+  padding:26px 26px 20px;
+}
+.price-group h3{
+  margin-bottom:14px;padding-bottom:12px;
+  border-bottom:1px solid var(--line);
+}
+.price-group ul{list-style:none;margin:0;padding:0;}
+.price-group li{
+  display:flex;justify-content:space-between;align-items:baseline;gap:16px;
+  padding:9px 0;font-size:.96rem;
+}
+.price-group li + li{border-top:1px dashed var(--line);}
+.p-name{color:var(--ink-soft);}
+.p-name em{font-style:normal;color:var(--muted);font-size:.82rem;white-space:nowrap;margin-left:6px;}
+.p-cost{font-family:"Marcellus",Georgia,serif;font-size:1.02rem;color:var(--accent-deep);white-space:nowrap;}
+.price-note{color:var(--muted);font-size:.95rem;margin:22px 0 0;}
+@media (min-width:820px){
+  .price-grid{grid-template-columns:repeat(2,1fr);align-items:start;}
+}
+
+/* ---------- service card price tag ---------- */
+.svc-price{
+  display:inline-block;
+  font-family:"Jost",sans-serif;
+  font-size:.78rem;font-weight:500;letter-spacing:.08em;
+  color:var(--accent-deep);background:var(--accent-tint);
+  border-radius:999px;padding:3px 11px;
+  margin-left:8px;vertical-align:middle;white-space:nowrap;
+}
+
+/* ---------- reflexology ---------- */
+.reflex-grid{display:grid;gap:26px;}
+.reflex-col{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:var(--radius-lg);
+  padding:28px;
+}
+.reflex-col h3{margin-bottom:14px;}
+.reflex-col .checks{margin:0;}
+.reflex-col p{color:var(--ink-soft);font-size:.98rem;}
+.reflex-note{
+  color:var(--muted);font-size:.88rem;margin-bottom:0;
+  border-top:1px solid var(--line);padding-top:14px;
+}
+@media (min-width:900px){
+  .reflex-grid{grid-template-columns:1fr 1fr;align-items:start;}
 }

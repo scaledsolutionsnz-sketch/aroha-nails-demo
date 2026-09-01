@@ -1,4 +1,4 @@
-/* Aroha Nails, Te Aroha */
+/* Aroha Nails and Reflexology, Te Aroha */
 (function () {
   'use strict';
 
@@ -77,9 +77,10 @@
 
   /* ---- hero review quotes (same wording as the cards below) ---- */
   var QUOTES = [
-    { text: 'Love, love, love having my nails done here! Fab nails and professionalism.', who: 'Sapphire Martin' },
-    { text: 'I definitely walked out feeling like a new woman and brand new feet, beautiful massage too.', who: 'Michelle Vera' },
-    { text: 'Just had a reflexology treatment and it was amazing. Highly recommended.', who: 'Tony Hodges' }
+    { text: 'Just had a Reflexology treatment and it was amazing. Highly recommended!', who: 'Tony Hodges' },
+    { text: 'Love, love, love getting my nails done here! Fab nails and professionalism.', who: 'Sapphire Martin' },
+    { text: 'I definitely walked out feeling like a new woman with brand new feet, beautiful massage too.', who: 'Michelle Vera' },
+    { text: 'Just so relaxing!!', who: 'Ngaire Keightley' }
   ];
   var STAR = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6.6 7 .8-5.2 4.8 1.4 7L12 17.8 5.8 21.2l1.4-7L2 9.4l7-.8z"/></svg>';
   var box = document.getElementById('heroQuote');
